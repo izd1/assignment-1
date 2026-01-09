@@ -317,3 +317,64 @@
   font-size: 16px;
   color: #627382;
 }
+
+.footer {
+  width: 100%;
+  background-color: #001931;
+}
+
+.in {
+  width: 85%;
+  margin: 0 auto;
+  padding: 120px 0 80px;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.f-logo img {
+  height: 60px;
+  width: auto;
+}
+
+.social {
+  text-align: left;
+}
+
+.Slinks {
+  color: #ffffff;
+  font-size: 20px;
+  margin-bottom: 16px;
+  line-height: 20px;
+  font-weight: 500;
+}
+
+.S-icons {
+  display: flex;
+  justify-content: flex-start;
+  gap: 16px;
+}
+
+.S-icons img {
+  width: 20px;
+  height: 20px;
+}
+
+.divider {
+  margin-top: 80px;
+  height: 1px;
+  background-color: white;
+  opacity: 0.2;
+}
+
+.copyright {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: white;
+}
