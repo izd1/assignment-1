@@ -152,7 +152,7 @@
   margin-bottom: 12px;
 }
 
-.subline {
+.sub-line {
   font-size: 16px;
   color: #6b7280;
 }
@@ -206,10 +206,9 @@
 }
 
 .part-3 {
-  width: 85%;
-  margin: 0 auto;
-  padding: 120px;
+  width: 100%;
   background-color: #ffffff;
+  padding: 120px 5%;
 }
 
 .part3-cont {
@@ -219,45 +218,43 @@
 }
 
 .part3-pic {
-  flex: 1;
+  width: 45%;
   display: flex;
   justify-content: center;
 }
 
 .part3-pic img {
-  width: auto;
-  height: 100%;
+  width: 90%;
+  height: auto;
 }
 
 .part3-texts {
-  flex: 1;
+  width: 55%;
+  display: flex;
+  flex-direction: column;
   gap: 16px;
 }
 
 .texts-line {
-  display: inline-block;
   font-size: 16px;
   font-weight: 600;
   color: #469165;
-  margin-bottom: 12px;
 }
 
 .part3-texts h2 {
   font-size: 48px;
   font-weight: 700;
   line-height: 58px;
-  text-align: left;
   color: #001931;
-  margin-bottom: 16px;
 }
 
 .part3-texts p {
   font-size: 16px;
   font-weight: 400;
   line-height: 20px;
-  text-align: left;
   color: #627382;
-  margin-bottom: 32px;
+  margin-bottom: 16px;
+  
 }
 
 .texts-list {
@@ -269,16 +266,18 @@
 .texts-list li {
   display: flex;
   align-items: flex-start;
+  gap: 12px;
   font-size: 16px;
   font-weight: 500;
   line-height: 20px;
   color: #001931;
+  margin-bottom: 12px;
 }
 
 .texts-list li img {
   width: 20px;
   height: 20px;
-  margin-right: 3px;
+  margin-top: 2px;
 }
 
 .part-4 {
